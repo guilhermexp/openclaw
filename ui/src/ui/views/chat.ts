@@ -370,7 +370,7 @@ export function renderChat(props: ChatProps) {
 
       <div class="chat-compose">
         ${renderAttachmentPreview(props)}
-        <div class="chat-compose__row">
+        <div class="chat-compose__wrapper">
           <label class="field chat-compose__field">
             <span>Message</span>
             <textarea
